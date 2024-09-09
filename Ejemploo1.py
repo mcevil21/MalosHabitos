@@ -7,5 +7,3 @@ if __name__=="__==main--":
     multiplicador= float(input("Multiplicador:"))
     resultado = Multiplicacion(multiplicando, multiplicador)
     print (f"{multiplicando}*{multiplicador}*{resultado}")
-
-
