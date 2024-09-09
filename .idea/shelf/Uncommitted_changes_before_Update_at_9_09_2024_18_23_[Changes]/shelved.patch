@@ -1,0 +1,20 @@
+Index: Ejercicio1.py
+===================================================================
+diff --git a/Ejercicio1.py b/Ejercicio1.py
+deleted file mode 100644
+--- a/Ejercicio1.py	(revision e54851a91a16cbd22b446acd2b2261240f7d2996)
++++ /dev/null	(revision e54851a91a16cbd22b446acd2b2261240f7d2996)
+@@ -1,11 +0,0 @@
+-def Multiplicacion(multiplicando, multiplicador):
+-    producto = multiplicando * multiplicador
+-    return producto
+-
+-if __name__=="__==main--":
+-    multiplicando = float(input("Multiplicando:"))
+-    multiplicador= float(input("Multiplicador:"))
+-    resultado = Multiplicacion(multiplicando, multiplicador)
+-    print (f"{multiplicando}*{multiplicador}*{resultado}")
+-
+-
+diff --git a/main.py b/main.py
+deleted file mode 100644

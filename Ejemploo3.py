@@ -10,10 +10,8 @@ if __name__ == "__main__":
         dimension2 = float(input("Dimension2 :"))
         rect_area = rectangulo(dimension1, dimension2)
         print("Área del rectángulo:", rect_area)
-
         base = float(input("Base :"))
         altura = float(input("Altura :"))
         tri_area = triangulo(base, altura)
         print("Área del triángulo:", tri_area)
-
     main()
